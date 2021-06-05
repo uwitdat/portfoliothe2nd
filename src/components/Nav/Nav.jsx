@@ -1,4 +1,5 @@
 import React from 'react' 
+import { Link } from 'react-router-dom'
 import './Nav.css'
 
 export default function Nav(props){
@@ -6,11 +7,19 @@ export default function Nav(props){
         <>
         <video src='myVid.mp4' loop="true" autoplay="autoplay" muted ></video>
         <nav className='nav'>
-          <div id='ben'>BEN SHEKHTMAN </div>
+          
+            <div id='ben'>BEN SHEKHTMAN </div>
+            
           <div id='slash'>//</div>
-          <div id='abt'>about</div>
-          <div id='rsm'>resume</div>
-          <div id='proj'>projects</div>
+          <Link id='a' to='/about'>
+            <div id='abt'>about</div>          
+          </Link>
+          <Link id='a' to='/resume'>
+            <div id='rsm'>resume</div>
+          </Link>
+          <Link id='a' to='/projects'>
+            <div id='proj'>projects</div>
+          </Link>
         </nav>
         </>
     )

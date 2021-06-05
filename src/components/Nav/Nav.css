@@ -79,3 +79,8 @@ nav > div:first-child {
   font-size: 2.2rem;
   font-family: "Fugaz One", cursive;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}

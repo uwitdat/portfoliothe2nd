@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom'
-import LandingPage from './components/LandingPage/LandingPage'
-import ProjectsPage from './pages/ProjectsPage'
-import Footer from './components/Footer/Footer'
-import Nav from './components/Nav/Nav'
+import LandingPage from './pages/LandingPage/LandingPage'
+import ProjectsPage from './pages/ProjectsPage/ProjectsPage'
+import ResumePage from './pages/ResumePage/ResumePage'
+import AboutPage from './pages/AboutPage/AboutPage'
+
 
 import './App.css';
 
@@ -12,10 +13,22 @@ class App extends Component {
     return(
 
     <div className='app'>
-        <Nav />
-        <LandingPage/>
-        <Footer/>            
-      </div>
+      <Switch>
+          <Route path='/home' render={(props) => (
+            <LandingPage {...props}/>
+          )}/>
+          <Route path='/projects' render={(props) => (
+            <ProjectsPage {...props}/>
+          )}/>  
+          <Route path='/resume' render={(props) => (
+            <ResumePage {...props}/>
+          )}/>  
+          <Route path='/about' render={(props) => (
+            <AboutPage {...props}/>
+          )}/>  
+        <Redirect to='/home'/>           
+      </Switch>
+    </div>
 
     )
   }

@@ -13,6 +13,7 @@ class App extends Component {
     return(
 
     <div className='app'>
+    <video src='myVid.mp4' loop="true" autoplay="autoplay" muted ></video>
       <Switch>
           <Route path='/home' render={(props) => (
             <LandingPage {...props}/>

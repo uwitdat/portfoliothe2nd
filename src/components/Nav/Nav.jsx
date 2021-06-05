@@ -5,7 +5,7 @@ import './Nav.css'
 export default function Nav(props){
     return(
         <>
-        <video src='myVid.mp4' loop="true" autoplay="autoplay" muted ></video>
+
         <nav className='nav'>
 
           <Link id='ben'to='/home'>

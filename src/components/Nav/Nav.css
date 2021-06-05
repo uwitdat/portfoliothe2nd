@@ -1,9 +1,3 @@
-video {
-  position: absolute;
-  height: 100vh;
-  z-index: -1;
-  overflow: hidden;
-}
 nav {
   border: 1px solid transparent;
   display: flex;

@@ -7,9 +7,11 @@ export default function Nav(props){
         <>
         <video src='myVid.mp4' loop="true" autoplay="autoplay" muted ></video>
         <nav className='nav'>
-          
+
+          <Link id='ben'to='/home'>
             <div id='ben'>BEN SHEKHTMAN </div>
-            
+          </Link>  
+
           <div id='slash'>//</div>
           <Link id='a' to='/about'>
             <div id='abt'>about</div>          

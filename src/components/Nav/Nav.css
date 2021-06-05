@@ -74,7 +74,7 @@ nav {
   }
 }
 
-nav > div:first-child {
+#ben {
   color: rgb(255, 151, 166);
   font-size: 2.2rem;
   font-family: "Fugaz One", cursive;

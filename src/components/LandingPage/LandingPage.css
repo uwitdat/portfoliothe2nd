@@ -1,0 +1,117 @@
+p {
+  color: rgb(182, 182, 182);
+  font-family: "Staatliches", cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0.1rem;
+  margin-bottom: 0;
+  font-family: "Gochi Hand", cursive;
+  letter-spacing: 2px;
+}
+
+.txt {
+  padding: 0;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: left;
+  text-align: left;
+  height: 90vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  /* border: 1px solid blue; */
+}
+
+.col-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  /* border: 1px solid rgb(223, 223, 255); */
+}
+
+h2 {
+  color: rgb(255, 151, 166);
+  font-family: "Fugaz One", cursive;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+hr {
+  width: 10rem;
+  animation: fade 3s ease-in;
+}
+
+@keyframes fade {
+  0% {
+    width: 0rem;
+    opacity: 0;
+  }
+  100% {
+    width: 10rem;
+    opacity: 1;
+  }
+}
+
+#slash {
+  color: rgb(255, 255, 255);
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+#btn {
+  width: 9rem;
+  padding: 1rem;
+  margin: 0.8rem;
+  color: rgb(255, 151, 166);
+  /* color: white; */
+  font-size: 1.2rem;
+  font-family: "Fugaz One", cursive;
+  border: 2px solid white;
+  background-color: transparent;
+  transition: 500ms;
+}
+
+#btn:hover {
+  cursor: pointer;
+  transform: translateY(-8px);
+  color: white;
+}
+
+#top {
+  font-family: "Fugaz One", cursive;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: white;
+}
+
+span {
+  color: rgb(255, 151, 166);
+  font-size: 1.4rem;
+}
+
+@keyframes slide-right {
+  to {
+    transform: translateX(0);
+  }
+}
+
+#lan {
+  text-transform: lowercase;
+  margin-top: 1rem;
+  font-family: "Carter One", cursive;
+  color: white;
+}

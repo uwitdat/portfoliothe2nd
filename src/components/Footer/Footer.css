@@ -1,0 +1,25 @@
+#link {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 5rem;
+  transition: 0.3s;
+  filter: grayscale(100%);
+  transition: 0.4s;
+}
+
+#link:hover {
+  transform: scale(1.2);
+  filter: none;
+  cursor: pointer;
+}
+
+.flexlink {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}

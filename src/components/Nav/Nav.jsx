@@ -3,15 +3,12 @@ import { Link } from 'react-router-dom'
 import './Nav.css'
 
 export default function Nav(props){
-    return(
-        <>
-
+  return(
+      <>
         <nav className='nav'>
-
           <Link id='ben'to='/home'>
             <div id='ben'>BEN SHEKHTMAN </div>
           </Link>  
-
           <div id='slash'>//</div>
           <Link id='a' to='/about'>
             <div id='abt'>about</div>          
@@ -23,6 +20,6 @@ export default function Nav(props){
             <div id='proj'>projects</div>
           </Link>
         </nav>
-        </>
+      </>
     )
-}
+  }

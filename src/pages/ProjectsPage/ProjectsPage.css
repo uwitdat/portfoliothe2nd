@@ -1,0 +1,59 @@
+.img-contain {
+  width: 50vw;
+  height: 90vh;
+  text-align: center;
+  margin-left: 2rem;
+}
+
+#playdog {
+  width: 22rem;
+  margin-top: 2rem;
+}
+
+#ben {
+  color: rgb(255, 151, 166);
+  font-size: 2.2rem;
+  font-family: "Fugaz One", cursive;
+}
+
+#link-2 {
+  width: 4rem;
+  display: inline;
+  transition: 300ms;
+}
+
+#link-2:hover {
+  transform: scale(1.1);
+}
+
+#p-2 {
+  color: rgb(172, 172, 172);
+  display: inline;
+}
+
+.pic-txt-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.pic-link {
+  display: inline-block;
+}
+
+.p-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.col-2-pics {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  /* border: 1px solid rgb(223, 223, 255); */
+}

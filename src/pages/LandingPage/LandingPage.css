@@ -18,7 +18,7 @@ p {
   flex-wrap: wrap;
   align-items: left;
   text-align: left;
-  height: 90vh;
+  height: 80vh;
   width: 100vw;
   /* border: 1px solid red; */
 }

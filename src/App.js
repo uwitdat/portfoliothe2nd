@@ -11,9 +11,8 @@ import './App.css';
 class App extends Component {
   render() {
     return(
-
     <div className='app'>
-    <video src='myVid.mp4' loop="true" autoplay="autoplay" muted ></video>
+      <video src='myVid.mp4' loop="true" autoplay="autoplay" muted ></video>
       <Switch>
           <Route path='/home' render={(props) => (
             <LandingPage {...props}/>
@@ -30,7 +29,6 @@ class App extends Component {
         <Redirect to='/home'/>           
       </Switch>
     </div>
-
     )
   }
 }

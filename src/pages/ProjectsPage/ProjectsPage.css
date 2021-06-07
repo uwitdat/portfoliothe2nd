@@ -7,7 +7,7 @@
 
 #playdog {
   width: 22rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 #ben {
@@ -51,9 +51,33 @@
 
 .col-2-pics {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
   /* border: 1px solid rgb(223, 223, 255); */
+}
+
+.right-arr {
+  font-size: 2rem;
+  color: rgb(216, 213, 213);
+  top: 50%;
+  transition: 300ms;
+}
+
+.right-arr:hover {
+  cursor: pointer;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 2s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 2s;
 }

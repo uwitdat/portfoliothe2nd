@@ -4,6 +4,7 @@ import LandingPage from './pages/LandingPage/LandingPage'
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage'
 import ResumePage from './pages/ResumePage/ResumePage'
 import AboutPage from './pages/AboutPage/AboutPage'
+import { SliderData} from './components/SliderData'
 
 
 import './App.css';
@@ -18,7 +19,7 @@ class App extends Component {
             <LandingPage {...props}/>
           )}/>
           <Route path='/projects' render={(props) => (
-            <ProjectsPage {...props}/>
+            <ProjectsPage {...props} slides={SliderData}/>
           )}/>  
           <Route path='/resume' render={(props) => (
             <ResumePage {...props}/>
